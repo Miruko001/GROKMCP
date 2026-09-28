@@ -1,0 +1,31 @@
+git clone https://gitlab.com/upio/roblox-executor-mcp.git
+cd roblox-executor-mcp
+npm install
+npm run
+
+
+npm start
+
+
+
+
+winget install --id Cloudflare.cloudflared
+
+
+
+
+cloudflared tunnel --url http://localhost:16384
+
+
+
+Open Grok Connectors.
+
+Select New Connector.
+
+Choose Custom.
+
+Paste the https://…trycloudflare.com tunnel URL.
+
+Complete any authentication prompt if Grok shows one.
+
+Save it, then open a regular Grok chat.
